@@ -1,0 +1,108 @@
+ body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Bradley Hand ITC;
+            font-size: 200px;
+            letter-spacing: 5px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        
+
+        h4 {
+            font-family: Felix Titling;
+            font-size: 20px;
+            letter-spacing: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-family: Felix Titling;
+            font-size: 30px;
+            letter-spacing: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color:#9f4545
+        }
+
+        video {
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(255,255,255,0.2);
+        }
+
+        /* === BUTTON CONTAINER === */
+        .menu-container {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        /* === BUTTON STYLE === */
+        .menu-container a {
+            text-decoration: none;
+        }
+
+        button {
+            width: 400px;
+            height: 105px;
+            font-family: Castellar;
+            font-size: 20px;
+            font-weight: bold;
+            background: #222;
+            color: rgb(219, 219, 219);
+            border: 2px solid #ff3c3c;
+            border-radius: 10px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff3c3c;
+            transform: scale(1.05);
+        }
+
+        .promo-banner {
+            background: linear-gradient(90deg, #ff3c3c, #b3000095);
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-top: 50px;
+            text-align: center;
+            font-family: Felix Tetling;
+            font-size: 30px;    
+        }
+
+
+        .contact-table {
+            margin-top: 60px;
+            background-color: #1c1c1c;
+        }
+
+        th {
+            background-color: #ff3c3c;
+            padding: 15px;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        h4 {
+            margin-bottom: 10px;
+            color: #ff3c3c;
+        }
+
+        h2 {
+            font-family: Felix Tetling;
+        }
